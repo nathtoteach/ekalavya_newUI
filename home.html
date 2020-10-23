@@ -26,7 +26,74 @@
      .fa{
        padding: 5px;
      }
+     .cal{
+     background-color: rgb(255, 255, 255);
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     display: flex;
+     width: 100%;
+     height: 100%;
+     box-shadow: 0.3rem 0.4rem rgba(0,0,0,0.5);
+     
+     }
+     .calender{
+width: 35rem;
+height: 32rem;
+box-shadow: 0.1rem o.1rem 0.1rem 0.1rem rgba(0,0,0,0.4);
+     }
+     .month{
+      width: 100%;
+      height: 10rem;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+      padding: 0.1rem;
+      text-align: center;
+    text-shadow: 0.03rem 0.05rem rgba(0,0,0,0.5);
     
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+     }
+.month h3{
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.weekdays{
+  width: 100%;
+  height: 3rem;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.weekdays div{
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  width: calc(44.2rem/7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0.03rem 0.05rem rgba(0,0,0,0.5);
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+.days{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.1rem;
+}
+.days div{
+  font-size: 1rem;
+  margin: 0.1rem;
+  width: calc(42.2rem/9);
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0.03rem 0.05rem rgba(0,0,0,0.5);
+}
 
      </style>
 
@@ -105,18 +172,18 @@
   </div>
 </nav>
 
-<div class=" container " id="home">
+
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./images/img3.jpg" class="d-block " alt="..." width="1600px" height="500px">
+        <img src="./images/img3.jpg" class="d-block " alt="..." width="1688px" height="500px">
       </div>
       <div class="carousel-item">
-        <img src="./images/img4.jpg" class="d-block " alt="..." width="1600px" height="500px">
+        <img src="./images/img4.jpg" class="d-block " alt="..." width="1688px" height="500px">
       </div>
       <div class="carousel-item">
-        <img src="./images/img5.jpg" class="d-block " alt="..." width="1600px" height="500px">
+        <img src="./images/img5.jpg" class="d-block " alt="..." width="1688px" height="500px">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -152,38 +219,42 @@
 </div> -->
 
 
-  <div class="container bg-white" >
-    <h1 class=" text-center text-bold my-4 ">Pick your Choice</h1>
+  <div class="jumbotron bg-white " style="box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem rgba(0,0,0,0.4);margin-top: 80px ;" >
+    <header>
+      <h1 class=" text-center text-primary " style="margin-bottom: 40px;">Pick your Choice</h1>
+    </header>
+    
     <div class="row">
       
-        <div class="c2 col-md-4 " >
+        <div class="c2 col-md-2 " >
             
                     <a class="text-center" style=" text-decoration: none;"  href="">
-                     <img src="images/exam.webp" class="img-fluid text-light " width="200px" height="200px" alt="">
+                     <img src="images/exam.webp" style="box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);margin-left: 310px; "  class="img-fluid w-75 justify-content-center" alt="">
                       
-                    </a>         
+                    </a>  
+                       
         </div>
     
       
-        <div class="c2 col-md-4" >        
+        <div class="c2 col-md-2" >        
                     <a class="text-center" href="./calender.html"  style=" text-decoration: none;" >
-                       <img src="images/calender.jpg" class="img-fluid"  width="200px" height="200px" alt="">
+                       <img src="images/calender.jpg" class="img-fluid " style="box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);margin-left: 250px; "   width="200x" alt="">
                       
                        </a>
             </div>
          
          
 
-            <div class= "c2 col-md-4" >
+            <div class= "c2 col-md-2" >
                                    <a class="text-center"  href="./messages.html"  style=" text-decoration: none;" >
-                            <img src="images/message.webp"class="img-fluid float-left"  width="200px" height="200px" alt="">
+                            <img src="images/message.webp"class="img-fluid  " style="box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);margin-left: 200px; " height="180px" alt="">
                          </a>
             </div>
       
          
-                <div class="c2 col-md-4" style="background-image: url();">                   
+                <div class="c2 col-md-2" style="background-image: url();">                   
                             <a class="text-center" href="./gallery.html"  style=" text-decoration: none;" >
-                                <img src="images/gallery.jpg" class="img-fluid"  width="200px" height="200px" alt="">
+                                <img src="images/gallery.jpg" style="box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);margin-left: 200px; " class="img-fluid w-100"  alt="">
                                
                                </a>
                 </div>
@@ -191,7 +262,80 @@
                     
     </div>
     </div>
-  </div>
+ 
+    <div class="jumbotron">
+      <h1 class="text-center my-4 text-dark">Calendar & Events</h1>
+      <div class="row">
+        
+        <div class="col">
+          <div class="cal container">
+            <!-- <h3>Calendar & events</h3> -->
+          <div class="calender">
+          
+          <div class="month">
+            <h3>october</h3>
+          </div>
+            <div class="weekdays">
+              <div>sun</div>
+              <div>mon</div>
+              <div>tue</div>
+              <div>wed</div>
+              <div>thurs</div>
+              <div>fri</div>
+              <div>sat</div>
+            </div>
+
+            <div class="days">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+              <div>10</div>
+              <div>11</div>
+              <div>12</div>
+              <div>13</div>
+              <div>14</div>
+              <div>15</div>
+              <div>16</div>
+              <div>17</div>
+              <div>18</div>
+              <div>19</div>
+              <div>20</div>
+              <div>21</div>
+              <div>22</div>
+              <div>23</div>
+              <div>24</div>
+              <div>25</div>
+              <div>26</div>
+              <div>27</div>
+              <div>28</div>
+              <div>29</div>
+              <div>30</div>
+              <div>31</div>
+            </div>
+          
+        </div>
+      </div>
+        </div>
+<div class="col">
+  <div class="container" style="background-color: rgb(255, 255, 255);box-sizing: border-box;border: 1px solid rgb(133, 132, 132);box-shadow: 0.3rem 0.5rem rgba(0,0,0,0.5);">
+  <h4 >Events</h4>
+  <p>Dusshera</p>
+</div>
+</div>
+
+      </div>
+    </div>
+
 <footer>
   <div class="foot  text-light float-right">
     <a href="https://www.facebook.com/"><i class="fa fa-facebook-official text-light" aria-hidden="true"></i></a>
@@ -204,7 +348,9 @@
   </div>
 </footer>
 
-
+<script>
+  const date=new date();
+</script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

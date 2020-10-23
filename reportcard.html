@@ -12,12 +12,12 @@
     <title>EkaLavya</title>
    <style>
      .nav2{
-      
+      width: 1660px;
        margin-bottom: 20px;
        background-color: rgb(240, 225, 140);
      }
     
-     
+    
       
    </style>
   </head>
@@ -87,8 +87,8 @@
    </div>
  </nav>
  
- <div class="container mx-2">
-<h1>Analytics</h1>
+ <div class="container mx-2" style="margin: 20px;">
+<h1 class="display-4">Analytics</h1>
  <nav class="nav2 navbar navbar-expand-lg navbar-light">
     <ul class="ul navbar-nav mr-auto">
       <div class="ana row">
@@ -156,46 +156,61 @@
    </div>
  </div>
 
- <div class="hd">
-     <h3>Report card Analysis of class of section(s) in</h3>
+ <div class="hd" style="margin-top: 50px; ">
+     <h3 class="text-center my-4">Report card Analysis of class of section(s) in</h3>
  </div>
  <div class="row">
      <div class="col">
-         <input type="text" class="form-control " width="200px" height="150px" name="og" placeholder="Overall Grades">
+         <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder=" Overall Grade"></textarea>
      </div>
      <div class="col">
-        <input type="text" class="form-control " width="200px" height="150px" name="ap" placeholder="Average Percentage%">
+      <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Average Percentage%"></textarea>
+        
     </div>
     <div class="col">
-        <input type="text" class="form-control " width="200px" height="150px" name="go" placeholder="Gender Bias Overall Grades">
+      <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Gender Bias Overall Grade"></textarea>
+      
     </div>
     <div class="col">
-        <input type="text" class="form-control " width="200px" height="150px" name="tp" placeholder="Total Pass Percentage%">
+      <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder=" Total Pass Percentage%"></textarea>
+        
     </div>
  </div>
- <div class="row">
-     <div class="col-md-4">Assessmentents</div>
+ <div class="row " style="margin-top: 30px;margin-left: 50px;">
+     <div class="col-md-4 text-bold">Assessmentents</div>
      <div class="col-md-4 text-primary ">veiw all results</div>
      <div class="col-md-4 text-primary">veiw all results</div>
  </div>
- <div >
+ <div style="margin-left: 70px;margin-bottom: 30px;" >
      <input  type="checkbox" name="boy" id="">
      <label for="boy">Boys Vs Girls</label>
  </div>
-<div class="dropdwon">
-    <button>Overall Grade</button>
-    <div class="dropdown-menu" >
-      <a class="dropdown-item" href="#">FA1</a>
-      <a class="dropdown-item" href="#">FA2</a>
-      </div>
-    </div>
-      
-        <div class="dropdown-menu" >
-          <a class="dropdown-item" href="#">FA1</a>
-          <a class="dropdown-item" href="#">FA2</a>
-          </div>
-          
+
+
+ <div class="dropdown " style="margin-left: 50px;background-color: rgb(224, 222, 222);" >
+  <a class="btn  dropdown-toggle " href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Overall
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">FA1</a>
+    <a class="dropdown-item" href="#">FA2</a>
+    
+  </div>
 </div>
+<div class="dropdown" style="margin-left: 50px;margin-bottom: 10px;background-color: rgb(224, 222, 222);">
+  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Grade Wise Students
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">FA1</a>
+    <a class="dropdown-item" href="#">FA2</a>
+    
+  </div>
+</div>
+
+ 
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

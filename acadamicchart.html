@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>EkaLavya</title>
-  
+    
   </head>
   <body>
     <nav class="nav1 navbar navbar-expand-lg navbar-light  ">
@@ -21,42 +21,29 @@
    </button>
  
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     <ul class="ul navbar-nav mr-auto ">
+     <ul class="ul navbar-nav mr-auto">
        <li class="nav-item ">
          <a class="nav-link" href="home.html"><i class="fa fa-home" aria-hidden="true"></i> <span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link " href="exams.html">Exams</a>
+         <a class="nav-link" href="exams.html">Exams</a>
        </li>
        <li class="nav-item">
          <a class="nav-link" href="course.html">Course</a>
        </li>
-       <li class="nav-item active">
+       <li class="nav-item">
          <a class="nav-link" href="students.html">Students</a>
        </li>
        <li class="nav-item">
          <a class="nav-link" href="analytics.html">Analytics</a>
        </li>
-       <li class="nav-item">
+       <li class="nav-item active">
          <a class="nav-link" href="instituteset.html">Institute Settings</a>
        </li>
        <li class="nav-item">
          <a class="nav-link" href="ekalavya+.html">EkaLavya+</a>
        </li>
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Classes
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#">Class6</a>
-           <a class="dropdown-item" href="#">Class7</a>
-          <!-- <div class="dropdown-divider"></div> -->
-           <a class="dropdown-item" href="#">Class8</a>
-           <a class="dropdown-item" href="#">Class9</a>
-           <a class="dropdown-item" href="#">Class10</a>
-           
-         </div>
-       </li>
+      
        <li class="nav-item dropdown float-right">
          <a class="nav-link  " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Settings
@@ -64,7 +51,7 @@
          </a>
          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
            <a class="dropdown-item" href="#">Profile</a>
-           <a class="dropdown-item" href="#">Login</a>
+           <a class="dropdown-item" href="index.html">Logout</a>
           <!-- <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Class8</a> -->
          </div>
@@ -77,46 +64,99 @@
      </form> -->
    </div>
  </nav>
- 
- <div class="container " style="margin: 30px;">
-   <div class="jumbotron">
-   <h1 class="my-2">Student Management</h1>
-   <p >Manage all yours student accounts</p>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
-      <h4>Course</h4>
-      <div class="form-group">
-        <select class="form-control" name="" id="">
-          <option value="select" >Select</option>
-          <option value="">SSC</option>
-        </select>
-      </div>
-</div>
-<div class="col-md-3">
- <h4>Class</h4>
-  <div class="form-group" >
-    <select class="form-control" name="select" id="sel">
-      <option value="select" >Select</option>
-      <option  value="class6">class6</option>
-      <option value="class7">class7</option>
-      <option value="class8">class8</option>
-      <option value="class9">class9</option>
-      <option value="class10">class10</option>
-    </select>
-  </div>
-</div>
-<div class="col-md-3">
-  <button class="btn btn-success">Enter</button>
-</div>
 
-  </div>
+ <div class="container " style="margin:30px;" >
+            <h1 style="margin-bottom: 40px;">Acadamic Chart</h1>
+
+            <nav class="nav2 navbar navbar-expand-lg navbar-light">
+              <h3 class="text-secondary mx-3">Inst Type</h3>
+              <ul class="ul navbar-nav mr-auto">
+                <div class="ana row">
+                  
+                <li class=" nav-item active ">
+                  <a class=" nav-link" href="seniorschool.html">Senior School </a>
+                </li>
+            
+              
+                <li class=" nav-item " >
+                  <a class=" nav-link" href="">Intermediate </a>
+                </li>
+                <li class=" nav-item " >
+                  <a class=" nav-link" href="">APSSC Board </a>
+                </li>
+                
+              </div>
+                </ul>
+           </nav>
+          
+
+
+      
  </div>
 
-    <!-- Optional JavaScript -->
+ <script>
+  //  var a1=document.querySelector('select');
+  //  var a2=['IIT foundation','Neet','CBSE'];
+  //  const class=[]
+  //   for(var i=0;i<3;i++)
+  //   {
+  //     a2+=`<option>${a2[i]}</option>`;
+  //     if(a2==IIT foundation){
+
+  //     }
+     
+  //   }
+  //   document.write(a2);
+ </script>
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
+ <!-- <div class="row" style="margin-left: 40px;">
+         <div class="col">
+            <h4>Institute Type</h4> 
+           <div > <a href="#school">Senior School</a> </div>
+            <div> <a href="">Intermediate</a> </div>
+           <div> <a href="">APSSC bOARD</a> </div>
+
+         </div>
+         <div class="col">
+           <h4>  course</h4>
+         </div>
+         <div class="col">
+           <h4>  Class</h4>
+         </div>
+         <div class="col">
+             <h4>Subject</h4>
+         </div>
+     </div>
+    <div>
+        <label for="school"></label>
+        <select name="school" id="school">
+            <option value="">Senior School</option>
+       <option value="">IIT</option>
+       <option value="">Neet</option>
+       <option value="">CBSE</option>
+    </select>
+    </div>
+    <div>
+        <select name="inter" id="inter">
+            <option value="">Intermediate</option>
+            <option value="">MPC</option>
+            <option value="">BiPC</option>
+            <option value="">MPC Jee</option>
+            <option value="">BiPC Jee</option>
+        </select>
+    </div>
+    <div>
+        <select name="" id="">
+            <option value="">APSSC Board</option>
+            <option value="">SSC</option>
+        </select>
+    </div> -->
