@@ -10,7 +10,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>EkaLavya</title>
-    
+    <style>
+        .n1{
+            width: 100%;
+            height: 60px;
+            
+        }
+        .n2{
+            width: 100%;
+            height: 60px;
+            
+        }
+    </style>
   </head>
   <body>
     <nav class="nav1 navbar navbar-expand-lg navbar-light  ">
@@ -43,7 +54,19 @@
        <li class="nav-item">
          <a class="nav-link" href="ekalavya+.html">EkaLavya+</a>
        </li>
-      
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Classes
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Class6</a>
+           <a class="dropdown-item" href="#">Class7</a>
+          <!-- <div class="dropdown-divider"></div> -->
+           <a class="dropdown-item" href="#">Class8</a>
+           <a class="dropdown-item" href="#">Class9</a>
+           <a class="dropdown-item" href="#">Class10</a>
+         </div>
+       </li>
        <li class="nav-item dropdown float-right">
          <a class="nav-link  " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Settings
@@ -51,7 +74,7 @@
          </a>
          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
            <a class="dropdown-item" href="#">Profile</a>
-           <a class="dropdown-item" href="index.html">Logout</a>
+           <a class="dropdown-item" href="#">Logout</a>
           <!-- <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Class8</a> -->
          </div>
@@ -65,88 +88,99 @@
    </div>
  </nav>
 
- <div class="container " style="margin:30px;" >
-            <h1 style="margin-bottom: 40px;">Acadamic Chart</h1>
-
-            <nav class="nav2 navbar navbar-expand-lg navbar-light">
-              <ul class="ul navbar-nav mr-auto">
-                <div class="ana row">
-                  
-                <li class=" nav-item active ">
-                  <a class=" nav-link" href="seniorschool.html">Senior School </a>
-                </li>
-            
-              
-                <li class=" nav-item " >
-                  <a class=" nav-link" href="intermediate.html">Intermediate </a>
-                </li>
-                <li class=" nav-item " >
-                  <a class=" nav-link" href="apssc.html">APSSC Board </a>
-                </li>
-                
-              </div>
-                </ul>
-           </nav>
-          
-           <div class="container">
-            <div class="row">
-                <div class=" col-md-4">
-                    <h3>
-                      Course
-                    </h3>
-                    <div class=" form-group">
-                      <nav class="nav3 navbar ">
-                      <ul class="u1 navbar-nav " >
-                       <li class="nav-item form-control  " >
-                         <a class="text-dark" href="iit.html">IIT Foundation</a>
-                      
-                       </li>
-                       <li class="nav-item form-control "> <a class="text-primary" href="neet.html"> Neet</a> </li>
-                       <li class="nav-item form-control "> <a class="text-dark" href="cbse.html">CBSE</a> </li>
-                      </ul>
-                    </nav>
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4">
-                    <h3>Class</h3>
-                    <div class="form-group">
-                        <nav class="navbar">
-                            <ul class="navbar-nav">
-                              <li class="nav-item form-control  " ><a class="text-dark" href="neetclass6.html">class6</a> </li>
-                              <li class="nav-item form-control  " ><a class="text-dark" href="neetclass7.html">class7</a> </li>
-                              <li class="nav-item form-control  " ><a class="text-dark" href="neetclass8.html">class8</a> </li>
-                              <li class="nav-item form-control  " ><a class="text-dark" href="neetclass9.html">class9</a> </li>
-                              <li class="nav-item form-control  " ><a class="text-dark" href="neetclass10.html">class10</a> </li> 
-                        </ul>
-                      </nav>
-                      
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <button class="btn btn-primary" id="course">+ Add Course</button>
-                </div>
-            <div class="col-md-4">
-                <button class="btn btn-primary" id="cls">+ Add Class</button>
-            </div>
-            </div>
+<div class="container" style="margin: 20px;">
+  <h1>Branch Settings</h1>
+  <div class="row">
+    <div class="container col-md-4" style="margin: 10px;">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Branch</h3>
+          <div class=" form-group">
+            <nav class="nav3 navbar ">
+            <ul class="u1 navbar-nav " >
+             <li class="nav-item form-control  " >
+               <a class="text-primary" href="branchdetails.html">EkaLavya</a> </li>
+             <li class="nav-item form-control "> <a class="text-dark" href=""> Sri Sai</a> </li>
+             
+             
+            </ul>
+          </nav>
           </div>
-
+        </div>
+        <div class="col">
+          <button class="btn btn-primary">+ new branch</button>
+        </div>
+      </div>
+    </div>
+   <div class="col-md-4">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-primary" style="width: 800px;" >
       
- </div>
+      <ul class="navbar-nav  ">
+        <div class=" row">
+          
+        <li class=" nav-item active  ">
+          <a class=" nav-link " style="color: black;" href="branchdetails.html">Branch Detail </a>
+        </li>
+    
+      
+        <li class=" nav-item  " >
+          <a class=" nav-link " style="color: black;" href="class&course.html">Class & Course </a>
+        </li>
+        
+        
+      </div>
+        </ul>
+   </nav>
+   <div class="col" >
+    <nav class=" navbar navbar-expand-lg navbar-light bg-info" style="width: 800px;" >
+      
+      <ul class="navbar-nav  ">
+        <div class=" row">
+          
+        <li class=" nav-item  ">
+          <a class=" nav-link " style="color: black;" href="branchdetails.html">Senior School(VI-X) </a>
+        </li>
+    
+      
+        <li class=" nav-item active " >
+          <a class=" nav-link " style="color: black;" href="ekainter.html">Intermediate </a>
+        </li>
+        <li class=" nav-item  " >
+            <a class=" nav-link " style="color: black;" href="ekastateboard.html">State Board </a>
+          </li>
+        
+        
+      </div>
+        </ul>
+   </nav>
+<div class="row" style="margin-top: 40px;">
+    <div class="n1 col">
+        
+         <div>Branch Name</div>
+       <div>College Name</div>
+        <div>Branch Name</div>
+        <div>address</div>
+       
+     
+    </div> 
+   <div class="n2 col">
+       <div>Ekalavya</div>
+       <div>Ekalavya</div>
+       <div>BR001</div>
+       <div>4th floor, Audi showroom building, banjara hills road no.12</div>
+           
+       
+    </div>
+</div>
+ 
+   </div>
 
- <script>
-    var a=document.getElementById('course');
-    a.addEventListener('click',e=>{
-      prompt("enter the course name");
-    })
-    var b=document.getElementById('cls');
-    b.addEventListener('click',e=>{
-      prompt("enter the class name");
-    })
-  </script>
+  </div>
+  <div class="col">
+    <button class="btn btn-primary float-right" style="margin-top: 150px;">edit</button>
+</div>
+</div>
+
 
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

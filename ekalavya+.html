@@ -10,9 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>EkaLavya</title>
-   
+   <style>
+     .btn{
+    border:1px solid grey;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.4);
+    width: 300px;
+    height: 90px;
+    font-size: 20px;
+    margin-top: 50px;
+    
+   }
+   </style>
        
-     </style>
+   
   </head>
   <body>
     <nav class="nav1 navbar navbar-expand-lg navbar-light  ">
@@ -45,19 +55,7 @@
        <li class="nav-item active">
          <a class="nav-link" href="ekalavya+.html">EkaLavya+</a>
        </li>
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Classes
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#">Class6</a>
-           <a class="dropdown-item" href="#">Class7</a>
-          <!-- <div class="dropdown-divider"></div> -->
-           <a class="dropdown-item" href="#">Class8</a>
-           <a class="dropdown-item" href="#">Class9</a>
-           <a class="dropdown-item" href="#">Class10</a>
-         </div>
-       </li>
+      
        <li class="nav-item dropdown float-right">
          <a class="nav-link  " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Settings
@@ -65,7 +63,7 @@
          </a>
          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
            <a class="dropdown-item" href="#">Profile</a>
-           <a class="dropdown-item" href="#">Login</a>
+           <a class="dropdown-item" href="index.html">Logout</a>
           <!-- <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Class8</a> -->
          </div>
@@ -79,6 +77,31 @@
    </div>
  </nav>
  
+ <div class="container mx-2 my-3">
+ 
+<div class="row">
+ <div class="col-md-4 form-group">
+  <a href="course.html">
+    <button class="btn  form-control" >course
+     <i class="fa fa-arrow-right float-right text-success" aria-hidden="true"></i>
+    </button>
+  </a>
+ </div>
+ <div class="col-md-4 form-group">
+   <a href="gallery.html">
+     <button class="btn form-control">gallery
+       <i class="fa fa-arrow-right float-right text-success" aria-hidden="true"></i>
+     </button>
+   </a>
+ </div>
+ <div class="col-md-4 form-group">
+   <a href="calender.html">
+     <button class="btn form-control">calendar & events
+       <i class="fa fa-arrow-right float-right text-success" aria-hidden="true"></i></button>
+   </a>
+ </div>
+</div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
