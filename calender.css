@@ -35,6 +35,10 @@ align-items: center;
     font-size: 2.5rem;
     cursor: pointer;
 }
+.next{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
  h1{
     font-size: 3rem;
     font-weight: 400;

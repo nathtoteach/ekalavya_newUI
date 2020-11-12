@@ -23,9 +23,9 @@
     <div class="container ">
           <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
 
-            <a class="navbar-brand display-5 text-light" href="#">
-              <img class="logo" src="./images/logo.webp" alt="" width="40px">
-              EkaLavya</a>
+            
+              <img class="logo" src="./images/ekalavya_logo.png" alt="">
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -65,20 +65,20 @@
         </button>
       </div>
       <div class="modal-body">
-          <form action="" method="" class="n1" novalidate>
-              <div class="form-group">
+          <form action="./home.html" method="GET" class="n1" ng-submit = "genericLogin()" novalidate>
+              <div class="wrap-input100 validate-input form-group">
                   <label for="user1">Username</label>
-                  <input type="text" class="form-control " id="user1" placeholder="Enter Username" required>
+                  <input type="text" class="input100 form-control " name="user1" id="user1" placeholder="Enter Username" required>
                   <small class="invalid-feedback">please enter valid username</small>
               </div>
               <div class="form-group">
                   <label for="pass1">Password</label>
-                  <input type="Password" class="form-control " id="pass1" placeholder="Enter password" required>
+                  <input type="Password" class="input100 form-control " name="pass1" id="pass1" placeholder="Enter password" required>
                   <small class="invalid-feedback">please enter valid password</small>
               </div>
-              <div>
+              <div class="container-login100-form-btn">
                   <!-- <input type="submit" value="Login" class="btn btn-success"> -->
-              <button type="submit" class="btn btn-success"  >
+              <button type="submit" class="login100-form-btn btn btn-success"  >
                login</button>
                 </div>
               
@@ -111,20 +111,22 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="" method="" class="n2" novalidate>
-          <div class="form-group">
+        <form action="./home.html" method="post" class="n2" ng-submit = "genericLogin()" novalidate>
+          <div class="wrap-input100 validate-input form-group">
               <label for="user2">Username</label>
-              <input type="text" class="form-control " id="user2" placeholder="Enter Username" required>
+              <input type="text" class="form-control " name="user2" id="user2" placeholder="Enter Username" required>
               <small class="invalid-feedback">please enter valid username</small>
           </div>
           <div class="form-group">
               <label for="pass2">Password</label>
-              <input type="Password" class="form-control " id="pass2" placeholder="Enter password" required>
+              <input type="Password" class="form-control " name="pass2" id="pass2" placeholder="Enter password" required>
               <small class="invalid-feedback">please enter valid password</small>
           </div>
-              <div>
-                  <input type="submit" value="Login" class="btn btn-success">
-              </div>
+          <div class="container-login100-form-btn">
+            <!-- <input type="submit" value="Login" class="btn btn-success"> -->
+        <button type="submit" class="login100-form-btn btn btn-success"  >
+         login</button>
+          </div>
               
               
                   </form>
@@ -155,20 +157,22 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="" method="" class="n3" novalidate>
-          <div class="form-group">
+        <form action="./home.html" method="post" class="n3" ng-submit = "genericLogin()" novalidate>
+          <div class="wrap-input100 validate-input form-group">
               <label for="user3">Username</label>
-              <input type="text" class="form-control " id="user3" placeholder="Enter Username" required>
+              <input type="text" class="form-control " name="user3" id="user3" placeholder="Enter Username" required>
               <small class="invalid-feedback">please enter valid username</small>
           </div>
           <div class="form-group">
               <label for="pass3">Password</label>
-              <input type="Password" class="form-control " id="pass3" placeholder="Enter password" required>
+              <input type="Password" class="form-control " name="pass3" id="pass3" placeholder="Enter password" required>
               <small class="invalid-feedback">please enter valid password</small>
           </div>
-              <div>
-                  <input type="submit" value="Login" class="btn btn-success">
-              </div>
+          <div class="container-login100-form-btn">
+            <!-- <input type="submit" value="Login" class="btn btn-success"> -->
+        <button type="submit" class="login100-form-btn btn btn-success"  >
+         login</button>
+          </div>
               
               
                   </form>
@@ -185,8 +189,11 @@
           </nav>
     </div>
             
-        <div class="container bg-light">
-
+        <div  >
+            <figure >
+              <img src="./images/logo.webp" style="margin-top: 80px; margin-left: 550px; width: 400px;"   alt="">
+            </figure>
+            <h1 class="display-2" style="margin-left: 590px;">EkaLavya</h1>
         </div>
 
     <script>
