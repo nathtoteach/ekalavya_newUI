@@ -1,0 +1,49 @@
+
+
+<nav class=" navbar navbar-expand-lg navbar-light bg-info sticky-top" >
+  <a class="navbar-brand" href="#">
+    <img src="../assets/images/ekalavya_logo.png" alt="">
+  </a>
+</nav>
+<nav class="nav1 navbar navbar-expand-lg navbar-light bg-info sticky-top " >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="ul navbar-nav " style="font-size: 25px;">
+      <li class="nav-item  " ng-view>
+        <a class="nav-link " routerLink="/Home" routerLinkActive="is-Active " style="color: rgb(255, 255, 255);">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " routerLink="/Course" routerLinkActive="is-Active" style="color: rgb(255, 255, 255);">Course</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " routerLink="/Exam" routerLinkActive="is-Active" style="color:  rgb(255, 255, 255);;">Exam</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " routerLink="/Analytics" routerLinkActive="is-Active" style="color:  rgb(255, 255, 255);;">Analytics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " routerLink="/Myschool" routerLinkActive="is-Active" style="color:  rgb(255, 255, 255);;">My School</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link "routerLink="/Liveclass" style="color:  rgb(255, 255, 255);;">Live Classroom</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+<script>
+  $('div  .navbar-nav .nav-link' ).on('click',function(){
+$('div  .navbar-nav').find('li .active').removeClass('active');
+$(this).parent('li').addClass('active');
+  });
+</script>
+
+
+
+
+
+
+<router-outlet></router-outlet>

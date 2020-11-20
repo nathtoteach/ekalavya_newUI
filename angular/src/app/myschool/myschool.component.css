@@ -1,0 +1,32 @@
+*{
+    background-color: rgba(255, 255, 255, 0.767);
+    background-blend-mode: difference;
+}
+button{
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(190, 190, 190); */
+   
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0,0,0,0.1);
+    margin: 20px;
+    
+}
+p{
+    position: relative;
+   
+    margin-top: 5px;
+}
+.row{
+    margin: 50px;
+}
+
+img{
+    position: relative;
+  float: left;
+  margin-top: 0px;
+ 
+
+}

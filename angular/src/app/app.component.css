@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav1{
+    height: 100px;
+    /* background-color: rgb(255, 241, 47); */
+   
+    
+}
+  ul{
+      text-align: center;
+      
+  }
+.ul li :hover{
+background-color: rgb(156, 156, 156);
+   
+
+    
+    /* border: 2px solid whitesmoke; */
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* padding: 5px; */
+   
+}
+  .active{
+ background-color: rgb(156, 156, 156);;
+    
+    
+    /* border: 2px solid whitesmoke; */
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
