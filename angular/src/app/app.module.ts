@@ -9,6 +9,8 @@ import { ExamComponent } from './exam/exam.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { MyschoolComponent } from './myschool/myschool.component';
 import { LiveclassComponent } from './liveclass/liveclass.component';
+import { InstituteAssignComponent } from './institute-assign/institute-assign.component';
+import { MockTestComponent } from './mock-test/mock-test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LiveclassComponent } from './liveclass/liveclass.component';
     ExamComponent,
     AnalyticsComponent,
     MyschoolComponent,
-    LiveclassComponent
+    LiveclassComponent,
+    InstituteAssignComponent,
+    MockTestComponent
   ],
   imports: [
     BrowserModule,

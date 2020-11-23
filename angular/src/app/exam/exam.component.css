@@ -1,0 +1,12 @@
+button{
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(190, 190, 190); */
+   
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0,0,0,0.1);
+    margin: 20px;
+    
+}
